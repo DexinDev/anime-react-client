@@ -1,0 +1,52 @@
+.header {
+  padding: 17px 40px 16px 40px;
+  background: #000;
+  display: flex;
+  color: #fff;
+  font-size: 16px;
+  line-height: 18px;
+  justify-content: space-between;
+
+  a {
+    color: #fff;
+    border-bottom: 1px solid #000;
+    transition: all 0.3s;
+
+    &:hover {
+      border-bottom-color: #fff;
+    }
+  }
+}
+
+.headerLogo {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+  -webkit-transition: border-bottom-color 0.3s;
+  transition: border-bottom-color 0.3s;
+
+  visibility: hidden;
+
+  strong {
+    font-weight: bold;
+  }
+
+  span {
+    text-decoration: underline;
+  }
+}
+
+.headerMenu {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  vertical-align: middle;
+}
+
+.headerMenuElement {
+  margin: 0 10px;
+  font-size: 16px;
+}

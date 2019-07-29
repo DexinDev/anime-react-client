@@ -1,0 +1,13 @@
+.searchWrapper {
+  max-width: $desktopMaxWidth;
+  margin: 40px auto;
+}
+
+.searchInput {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  font-size: 25px;
+  border: none;
+  @include shadow-block;
+}
